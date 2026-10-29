@@ -17,7 +17,7 @@ namespace SchoolApp.Models
        // [Display(Name = ...)]: the label shown on the form
         [Display(Name = "Full Name")]
         // ErrorMessage: your own message. Put YOUR first name after the dash.
-        [Required(ErrorMessage = "Please enter the student's name. - Salim")]
+        [Required(ErrorMessage = "Please enter the student's name. - Salim Sulaiman Said")]
         [StringLength(100, ErrorMessage = "The name can't be longer than 100 characters.")]
         public string? Name { get; set; }
  
